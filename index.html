@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" 
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Interfcae</title>
+</head>
+<body>
+    <div class="calculator">
+        <form name="form">
+            <input class="calc-display">
+        </form>
+        <table>
+            <tr>
+                <td><input type="button" value="C" onclick="c()"></td>
+                <td><input type="button" value="/" onclick="insrt('/')"></td>
+                <td><input type="button" value="<" onclick="del()"></td>
+                <td><input type="button" value="X" onclick="insrt('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="insrt(7)"></td>
+                <td><input type="button" value="8" onclick="insrt(8)"></td>
+                <td><input type="button" value="9" onclick="insrt(9)"></td>
+                <td><input type="button" value="-" onclick="insrt('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="insrt(4)"></td>
+                <td><input type="button" value="5" onclick="insrt(5)"></td>
+                <td><input type="button" value="6" onclick="insrt(6)"></td>
+                <td><input type="button" value="+" onclick="insrt('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="insrt(1)"></td>
+                <td><input type="button" value="2" onclick="insrt(2)"></td>
+                <td><input type="button" value="3" onclick="insrt(3)"></td>
+                <td><input type="button" value="=" onclick="eql()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="insrt(0)"></td>
+                <td><input type="button" value="." onclick="insrt('.')"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
