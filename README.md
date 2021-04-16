@@ -48,7 +48,7 @@ The site allows the user to clear inputs by clicking on the clear button
     
 
 ### Live Site
-View [Live] (https://oderooluoch.github.io/akan/)
+View [Live](https://oderooluoch.github.io/calculator/)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence.
