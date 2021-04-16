@@ -1,10 +1,10 @@
-#GHANA AKAN-NAMES
+#CALCULATOR
 
 ## Author
 Odero Oluoch
 
 ### Project Description
-This is a website that is based on the Ghanian Akans naming system.The web interface asks the user to input his or her birthday, select the gender then proceeds to submit the data to get the would have been Akhan names.
+This is a simple calc UI done as a practise project.
 
 
 ### Prerequisities
@@ -15,7 +15,7 @@ You can install it with the following command in your terminal.
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-2. Use this command to clone `$ git clone https://github.com/OderoOluoch/akan.git`
+2. Use this command to clone `$ git clone https://github.com/OderoOluoch/calculator.git`
 3. This will clone the repositoty into your local folder
  __Enjoy :)__
 
@@ -24,30 +24,25 @@ To access this project on your local files, you can clone it using these steps
 2. CSS
 3. Git
 4. JAVASCRIPT
-5. BOOTSRAP
+5. jQuery
 
 ### BDD
-| The web, on opening, displays the contents, loads the forms and images |
+| The web, on opening, displays the contents |
 
 | The web displays styled items, neatly arranged. |
 
-| The form on the web allows the user to click in the calendar to select date with the following inputs|
+| The calculator UI allows users to select buttons and evaluate arithmetic values|
 
         | Inputs | Description |
         |:---        |          ---: |
 
-        | Year   | The year  ``eg 2021``  |
+        | number   | To be evaluated  ``013``  |
 
-        | Month  | The month of the year ``eg 12``  |
+        | eval Button  | Button for evaluation ``+``  |
 
-        | Date   | The date of the month ``eg 15`` |
+        | Equals   | Pressed to give results ``15`` |
 
-The site display error on the follwing events
-        | Inputs              | Description      |
 
-        |:---            ---: |:---          ---:|
-
-        | Year month or date  | Empty submission | ``ensure all entries are filled correctly``  |
         
 The site allows the user to clear inputs by clicking on the clear button
     
